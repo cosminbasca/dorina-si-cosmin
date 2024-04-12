@@ -1657,6 +1657,16 @@ button.bg-secondary:focus {
     margin-right: auto;
 }
 
+.accommodation a {
+    font-weight: bold;
+    font-size: 16px;
+    color: #666;
+    transition: all 500ms ease;
+}
+.accommodation a:hover {
+    color: #b08c3e;
+}
+
 /* ===== VisitRomania style  ===== */
 .visitromania .title-meta {
     display: block;
@@ -1668,6 +1678,15 @@ button.bg-secondary:focus {
     color: #BD945A;
     line-height: 1.5em;
     margin-bottom: 30px;
+}
+
+.visitromania a {
+    font-size: 16px;
+    color: #666;
+    transition: all 500ms ease;
+}
+.visitromania a:hover {
+    color: #b08c3e;
 }
 
 /* ======= See You style ======= */
@@ -1696,109 +1715,6 @@ button.bg-secondary:focus {
     margin-bottom: 0;
 }
 
-/* ===== visitromania_accommodation style ===== */
-.visitromania_accommodation .item {
-
-}
-.visitromania_accommodation .item .visitromania_accommodation-img {
-    position: relative;
-    overflow: hidden;
-}
-.visitromania_accommodation .item .visitromania_accommodation-img:hover img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-.visitromania_accommodation .item .visitromania_accommodation-img img {
-    -webkit-transition: all .5s;
-    transition: all .5s;
-}
-.visitromania_accommodation .item .content {
-    padding: 20px 20px 30px 20px;
-    background: #fff;
-}
-.visitromania_accommodation .item .content .tag a {
-    color: #888;
-    font-style: italic;
-}
-.visitromania_accommodation .item .content .tag a:hover {
-    color: #BD945A;
-}
-.visitromania_accommodation .item .content h5 {
-    font-size: 21px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-}
-
-.visitromania_accommodation .content .info h6 {
-font-size: 12px;
-    letter-spacing: 5px;
-    color: #b08c3e;
-    font-family: 'Didact Gothic', sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-.visitromania_accommodation .item .content p i {
-    color: #BD945A;
-}
-.visitromania_accommodation-entry {
-    width: 100%;
-    float: left;
-    background: #fff;
-    margin-bottom: 60px;
-    box-shadow: 0 25px 75px rgba(0, 0, 0, 0.05);
-}
-@media screen and (max-width: 768px) {
-    .visitromania_accommodation-entry {
-        margin-bottom: 45px;
-    }
-}
-.visitromania_accommodation-entry .visitromania_accommodation-img {
-    width: 100%;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 20px;
-}
-.visitromania_accommodation-entry .visitromania_accommodation-img img {
-    position: relative;
-    max-width: 100%;
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-}
-.visitromania_accommodation-entry .desc {
-    padding: 20px;
-}
-.visitromania_accommodation-entry .desc h3 {
-    font-size: 24px;
-    line-height: 1.2em;
-    font-weight: 400;
-    margin-bottom: 15px;
-}
-.visitromania_accommodation-entry .desc h3 a {
-    color: #000;
-    text-decoration: none;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-.visitromania_accommodation-entry:hover .visitromania_accommodation-img img {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
-}
 
 /* =====  Gift Registry style  ===== */
 .gift {
